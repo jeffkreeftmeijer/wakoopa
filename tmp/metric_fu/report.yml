@@ -1,11 +1,177 @@
 --- 
+:saikuro: 
+  :methods: 
+  - :lines: 4
+    :complexity: 3
+    :name: Wakoopa::Base::#find
+  - :lines: 11
+    :complexity: 3
+    :name: Wakoopa::Base::#method_missing
+  - :lines: 8
+    :complexity: 2
+    :name: Wakoopa::Request::#get
+  - :lines: 9
+    :complexity: 2
+    :name: Wakoopa::Base::#find_every
+  - :lines: 2
+    :complexity: 1
+    :name: Wakoopa::Base::#all
+  - :lines: 2
+    :complexity: 1
+    :name: Wakoopa::Base#method_missing
+  - :lines: 2
+    :complexity: 1
+    :name: Wakoopa::Base#initialize
+  :classes: 
+  - :lines: 36
+    :defs: 
+    - :lines: 4
+      :complexity: 3
+      :name: Wakoopa::Base::#find
+    - :lines: 9
+      :complexity: 2
+      :name: Wakoopa::Base::#find_every
+    - :lines: 2
+      :complexity: 1
+      :name: Wakoopa::Base::#all
+    - :lines: 11
+      :complexity: 3
+      :name: Wakoopa::Base::#method_missing
+    :complexity: 9
+    :name: "Wakoopa::Base::"
+  - :lines: 12
+    :defs: 
+    - :lines: 2
+      :complexity: 1
+      :name: Wakoopa::Base#initialize
+    - :lines: 2
+      :complexity: 1
+      :name: Wakoopa::Base#method_missing
+    :complexity: 2
+    :name: Wakoopa::Base
+  - :lines: 10
+    :defs: 
+    - :lines: 8
+      :complexity: 2
+      :name: Wakoopa::Request::#get
+    :complexity: 2
+    :name: "Wakoopa::Request::"
+  - :lines: 2
+    :complexity: 0
+    :name: Wakoopa::Software
+  - :lines: 2
+    :complexity: 0
+    :name: Wakoopa::Comment
+  - :lines: 2
+    :complexity: 0
+    :name: Wakoopa::PlacedComment
+  - :lines: 2
+    :complexity: 0
+    :name: Wakoopa::Review
+  - :lines: 2
+    :complexity: 0
+    :name: Wakoopa::Request
+  - :lines: 2
+    :complexity: 0
+    :name: Wakoopa::Relation
+  - :lines: 2
+    :complexity: 0
+    :name: Wakoopa::Team
+  - :lines: 2
+    :complexity: 0
+    :name: "Wakoopa::"
+  - :lines: 18
+    :complexity: 0
+    :name: Wakoopa
+  :files: 
+  - :classes: 
+    - :methods: []
+
+      :class_name: Wakoopa
+      :lines: 18
+      :complexity: 0
+    - :methods: []
+
+      :class_name: "Wakoopa::"
+      :lines: 2
+      :complexity: 0
+    - :methods: 
+      - :lines: 2
+        :complexity: 1
+        :name: Wakoopa::Base#method_missing
+      - :lines: 2
+        :complexity: 1
+        :name: Wakoopa::Base#initialize
+      :class_name: Wakoopa::Base
+      :lines: 12
+      :complexity: 2
+    - :methods: 
+      - :lines: 11
+        :complexity: 3
+        :name: Wakoopa::Base::#method_missing
+      - :lines: 4
+        :complexity: 3
+        :name: Wakoopa::Base::#find
+      - :lines: 9
+        :complexity: 2
+        :name: Wakoopa::Base::#find_every
+      - :lines: 2
+        :complexity: 1
+        :name: Wakoopa::Base::#all
+      :class_name: "Wakoopa::Base::"
+      :lines: 36
+      :complexity: 9
+    - :methods: []
+
+      :class_name: Wakoopa::Request
+      :lines: 2
+      :complexity: 0
+    - :methods: 
+      - :lines: 8
+        :complexity: 2
+        :name: Wakoopa::Request::#get
+      :class_name: "Wakoopa::Request::"
+      :lines: 10
+      :complexity: 2
+    - :methods: []
+
+      :class_name: Wakoopa::Software
+      :lines: 2
+      :complexity: 0
+    - :methods: []
+
+      :class_name: Wakoopa::Comment
+      :lines: 2
+      :complexity: 0
+    - :methods: []
+
+      :class_name: Wakoopa::PlacedComment
+      :lines: 2
+      :complexity: 0
+    - :methods: []
+
+      :class_name: Wakoopa::Review
+      :lines: 2
+      :complexity: 0
+    - :methods: []
+
+      :class_name: Wakoopa::Relation
+      :lines: 2
+      :complexity: 0
+    - :methods: []
+
+      :class_name: Wakoopa::Team
+      :lines: 2
+      :complexity: 0
+    :filename: wakoopa.rb
+:churn: 
+  :changes: []
+
 :flog: 
   :average: 6.6
   :total: 105.5
   :pages: 
-  - :score: 105.5
-    :path: /lib/wakoopa.rb
-    :highest_score: 29.5
+  - :path: /lib/wakoopa.rb
     :average_score: 6.6
     :scanned_methods: 
     - :score: 29.5
@@ -162,382 +328,216 @@
       - :operator: assignment
         :score: 1.2
       :name: Team#none
+    :score: 105.5
+    :highest_score: 29.5
 :flay: 
+  :total_score: "0"
   :matches: []
 
-  :total_score: "0"
+:rcov: 
+  :global_percent_run: 100.0
+  lib/wakoopa.rb: 
+    :lines: 
+    - :was_run: true
+      :content: "   require 'rubygems'"
+    - :was_run: true
+      :content: "   require 'httparty'"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "   module Wakoopa"
+    - :was_run: true
+      :content: "     class << self"
+    - :was_run: true
+      :content: "       attr_accessor :username, :feedkey"
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "     "
+    - :was_run: true
+      :content: "     class Base"
+    - :was_run: true
+      :content: "       attr_accessor :data"
+    - :was_run: true
+      :content: "       "
+    - :was_run: true
+      :content: "       def initialize(item)"
+    - :was_run: true
+      :content: "         @data = item"
+    - :was_run: true
+      :content: "       end           "
+    - :was_run: true
+      :content: "       "
+    - :was_run: true
+      :content: "       def method_missing(method_id, *args)"
+    - :was_run: true
+      :content: "         @data[method_id.to_s]"
+    - :was_run: true
+      :content: "       end"
+    - :was_run: true
+      :content: "        "
+    - :was_run: true
+      :content: "       class << self"
+    - :was_run: true
+      :content: "         attr_accessor :section"
+    - :was_run: true
+      :content: "         "
+    - :was_run: true
+      :content: "         def find(*args)"
+    - :was_run: true
+      :content: "           options = args.last.is_a?(Hash) ? args.pop : {}"
+    - :was_run: true
+      :content: "           warn \"The Wakoopa API doesn\\'t support finding single rows. \\n Please use \\\".all()\\\" or \\\"s.find(:all)\\\" instead of \\\".find()\\\".\" unless args.first == :all"
+    - :was_run: true
+      :content: "           find_every(options)"
+    - :was_run: true
+      :content: "         end"
+    - :was_run: true
+      :content: "         "
+    - :was_run: true
+      :content: "         def find_every(options = {})"
+    - :was_run: true
+      :content: "           query = {:limit => 100}.merge(options)"
+    - :was_run: true
+      :content: "               "
+    - :was_run: true
+      :content: "           feedkey = Wakoopa.feedkey"
+    - :was_run: true
+      :content: "           if feedkey"
+    - :was_run: true
+      :content: "             query.merge!(:key => feedkey)"
+    - :was_run: true
+      :content: "           end"
+    - :was_run: true
+      :content: "                   "
+    - :was_run: true
+      :content: "           Wakoopa::Request.get(@section, :query => query)"
+    - :was_run: true
+      :content: "         end"
+    - :was_run: true
+      :content: "         "
+    - :was_run: true
+      :content: "         def all(*args)"
+    - :was_run: true
+      :content: "           find(:all, *args)"
+    - :was_run: true
+      :content: "         end                                      "
+    - :was_run: true
+      :content: "         "
+    - :was_run: true
+      :content: "         def method_missing(method_id, *args)"
+    - :was_run: true
+      :content: "           options = args.last.is_a?(Hash) ? args.pop : {}"
+    - :was_run: true
+      :content: "           "
+    - :was_run: true
+      :content: "           method_id.to_s.match(/^find_all_by_([_a-zA-Z]\\w*)$/)"
+    - :was_run: true
+      :content: "           attributes = {}"
+    - :was_run: true
+      :content: "   "
+    - :was_run: true
+      :content: "           $1.split('_and_').each do |key|"
+    - :was_run: true
+      :content: "             attributes.merge!({key.intern => args.shift})"
+    - :was_run: true
+      :content: "           end"
+    - :was_run: true
+      :content: "          "
+    - :was_run: true
+      :content: "           find(:all, attributes.merge(options))"
+    - :was_run: true
+      :content: "         end"
+    - :was_run: true
+      :content: "       end"
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "     "
+    - :was_run: true
+      :content: "     class Request"
+    - :was_run: true
+      :content: "       class << self"
+    - :was_run: true
+      :content: "         def get(section, options={})                                                                  "
+    - :was_run: true
+      :content: "           response = HTTParty.get(\"http://api.wakoopa.com/#{Wakoopa.username}/#{section}.xml\", options)"
+    - :was_run: true
+      :content: "                                  "
+    - :was_run: true
+      :content: "           result = []"
+    - :was_run: true
+      :content: "           response[section].each do |item|"
+    - :was_run: true
+      :content: "             result << (Software.new(item))"
+    - :was_run: true
+      :content: "           end"
+    - :was_run: true
+      :content: "           result"
+    - :was_run: true
+      :content: "         end"
+    - :was_run: true
+      :content: "       end    "
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "     "
+    - :was_run: true
+      :content: "     class Software < Base"
+    - :was_run: true
+      :content: "       @section = 'software'"
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "       "
+    - :was_run: true
+      :content: "     class Comment < Base"
+    - :was_run: true
+      :content: "       @section = 'comments'"
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "     "
+    - :was_run: true
+      :content: "     class PlacedComment < Base"
+    - :was_run: true
+      :content: "       @section = 'placed_comments'"
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "     "
+    - :was_run: true
+      :content: "     class Review < Base"
+    - :was_run: true
+      :content: "       @section = 'reviews'"
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "       "
+    - :was_run: true
+      :content: "     class Relation < Base"
+    - :was_run: true
+      :content: "       @section = 'relations'"
+    - :was_run: true
+      :content: "     end"
+    - :was_run: true
+      :content: "     "
+    - :was_run: true
+      :content: "     class Team < Base"
+    - :was_run: true
+      :content: "       @section = 'teams'"
+    - :was_run: true
+      :content: "     end   "
+    - :was_run: true
+      :content: "   end"
+    :percent_run: 100
 :reek: 
   :matches: 
   - :file_path: lib/wakoopa.rb
     :code_smells: []
 
-:rcov: 
-  lib/wakoopa.rb: 
-    :lines: 
-    - :content: "   require 'rubygems'"
-      :was_run: true
-    - :content: "   require 'httparty'"
-      :was_run: true
-    - :content: "   "
-      :was_run: true
-    - :content: "   module Wakoopa"
-      :was_run: true
-    - :content: "     class << self"
-      :was_run: true
-    - :content: "       attr_accessor :username, :feedkey"
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "     "
-      :was_run: true
-    - :content: "     class Base"
-      :was_run: true
-    - :content: "       attr_accessor :data"
-      :was_run: true
-    - :content: "       "
-      :was_run: true
-    - :content: "       def initialize(item)"
-      :was_run: true
-    - :content: "         @data = item"
-      :was_run: true
-    - :content: "       end           "
-      :was_run: true
-    - :content: "       "
-      :was_run: true
-    - :content: "       def method_missing(method_id, *args)"
-      :was_run: true
-    - :content: "         @data[method_id.to_s]"
-      :was_run: true
-    - :content: "       end"
-      :was_run: true
-    - :content: "        "
-      :was_run: true
-    - :content: "       class << self"
-      :was_run: true
-    - :content: "         attr_accessor :section"
-      :was_run: true
-    - :content: "         "
-      :was_run: true
-    - :content: "         def find(*args)"
-      :was_run: true
-    - :content: "           options = args.last.is_a?(Hash) ? args.pop : {}"
-      :was_run: true
-    - :content: "           warn \"The Wakoopa API doesn\\'t support finding single rows. \\n Please use \\\".all()\\\" or \\\"s.find(:all)\\\" instead of \\\".find()\\\".\" unless args.first == :all"
-      :was_run: true
-    - :content: "           find_every(options)"
-      :was_run: true
-    - :content: "         end"
-      :was_run: true
-    - :content: "         "
-      :was_run: true
-    - :content: "         def find_every(options = {})"
-      :was_run: true
-    - :content: "           query = {:limit => 100}.merge(options)"
-      :was_run: true
-    - :content: "               "
-      :was_run: true
-    - :content: "           feedkey = Wakoopa.feedkey"
-      :was_run: true
-    - :content: "           if feedkey"
-      :was_run: true
-    - :content: "             query.merge!(:key => feedkey)"
-      :was_run: true
-    - :content: "           end"
-      :was_run: true
-    - :content: "                   "
-      :was_run: true
-    - :content: "           Wakoopa::Request.get(@section, :query => query)"
-      :was_run: true
-    - :content: "         end"
-      :was_run: true
-    - :content: "         "
-      :was_run: true
-    - :content: "         def all(*args)"
-      :was_run: true
-    - :content: "           find(:all, *args)"
-      :was_run: true
-    - :content: "         end                                      "
-      :was_run: true
-    - :content: "         "
-      :was_run: true
-    - :content: "         def method_missing(method_id, *args)"
-      :was_run: true
-    - :content: "           options = args.last.is_a?(Hash) ? args.pop : {}"
-      :was_run: true
-    - :content: "           "
-      :was_run: true
-    - :content: "           method_id.to_s.match(/^find_all_by_([_a-zA-Z]\\w*)$/)"
-      :was_run: true
-    - :content: "           attributes = {}"
-      :was_run: true
-    - :content: "   "
-      :was_run: true
-    - :content: "           $1.split('_and_').each do |key|"
-      :was_run: true
-    - :content: "             attributes.merge!({key.intern => args.shift})"
-      :was_run: true
-    - :content: "           end"
-      :was_run: true
-    - :content: "          "
-      :was_run: true
-    - :content: "           find(:all, attributes.merge(options))"
-      :was_run: true
-    - :content: "         end"
-      :was_run: true
-    - :content: "       end"
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "     "
-      :was_run: true
-    - :content: "     class Request"
-      :was_run: true
-    - :content: "       class << self"
-      :was_run: true
-    - :content: "         def get(section, options={})                                                                  "
-      :was_run: true
-    - :content: "           response = HTTParty.get(\"http://api.wakoopa.com/#{Wakoopa.username}/#{section}.xml\", options)"
-      :was_run: true
-    - :content: "                                  "
-      :was_run: true
-    - :content: "           result = []"
-      :was_run: true
-    - :content: "           response[section].each do |item|"
-      :was_run: true
-    - :content: "             result << (Software.new(item))"
-      :was_run: true
-    - :content: "           end"
-      :was_run: true
-    - :content: "           result"
-      :was_run: true
-    - :content: "         end"
-      :was_run: true
-    - :content: "       end    "
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "     "
-      :was_run: true
-    - :content: "     class Software < Base"
-      :was_run: true
-    - :content: "       @section = 'software'"
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "       "
-      :was_run: true
-    - :content: "     class Comment < Base"
-      :was_run: true
-    - :content: "       @section = 'comments'"
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "     "
-      :was_run: true
-    - :content: "     class PlacedComment < Base"
-      :was_run: true
-    - :content: "       @section = 'placed_comments'"
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "     "
-      :was_run: true
-    - :content: "     class Review < Base"
-      :was_run: true
-    - :content: "       @section = 'reviews'"
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "       "
-      :was_run: true
-    - :content: "     class Relation < Base"
-      :was_run: true
-    - :content: "       @section = 'relations'"
-      :was_run: true
-    - :content: "     end"
-      :was_run: true
-    - :content: "     "
-      :was_run: true
-    - :content: "     class Team < Base"
-      :was_run: true
-    - :content: "       @section = 'teams'"
-      :was_run: true
-    - :content: "     end   "
-      :was_run: true
-    - :content: "   end"
-      :was_run: true
-    :percent_run: 100
-  :global_percent_run: 100.0
 :roodi: 
   :total: 
   - Found 0 errors.
   :problems: []
-
-:saikuro: 
-  :classes: 
-  - :defs: 
-    - :lines: 4
-      :complexity: 3
-      :name: Wakoopa::Base::#find
-    - :lines: 9
-      :complexity: 2
-      :name: Wakoopa::Base::#find_every
-    - :lines: 2
-      :complexity: 1
-      :name: Wakoopa::Base::#all
-    - :lines: 11
-      :complexity: 3
-      :name: Wakoopa::Base::#method_missing
-    :lines: 36
-    :complexity: 9
-    :name: "Wakoopa::Base::"
-  - :defs: 
-    - :lines: 2
-      :complexity: 1
-      :name: Wakoopa::Base#initialize
-    - :lines: 2
-      :complexity: 1
-      :name: Wakoopa::Base#method_missing
-    :lines: 12
-    :complexity: 2
-    :name: Wakoopa::Base
-  - :defs: 
-    - :lines: 8
-      :complexity: 2
-      :name: Wakoopa::Request::#get
-    :lines: 10
-    :complexity: 2
-    :name: "Wakoopa::Request::"
-  - :lines: 2
-    :complexity: 0
-    :name: Wakoopa::Software
-  - :lines: 2
-    :complexity: 0
-    :name: Wakoopa::Comment
-  - :lines: 2
-    :complexity: 0
-    :name: Wakoopa::PlacedComment
-  - :lines: 2
-    :complexity: 0
-    :name: Wakoopa::Review
-  - :lines: 2
-    :complexity: 0
-    :name: Wakoopa::Request
-  - :lines: 2
-    :complexity: 0
-    :name: Wakoopa::Relation
-  - :lines: 2
-    :complexity: 0
-    :name: Wakoopa::Team
-  - :lines: 2
-    :complexity: 0
-    :name: "Wakoopa::"
-  - :lines: 18
-    :complexity: 0
-    :name: Wakoopa
-  :methods: 
-  - :lines: 4
-    :complexity: 3
-    :name: Wakoopa::Base::#find
-  - :lines: 11
-    :complexity: 3
-    :name: Wakoopa::Base::#method_missing
-  - :lines: 8
-    :complexity: 2
-    :name: Wakoopa::Request::#get
-  - :lines: 9
-    :complexity: 2
-    :name: Wakoopa::Base::#find_every
-  - :lines: 2
-    :complexity: 1
-    :name: Wakoopa::Base::#all
-  - :lines: 2
-    :complexity: 1
-    :name: Wakoopa::Base#method_missing
-  - :lines: 2
-    :complexity: 1
-    :name: Wakoopa::Base#initialize
-  :files: 
-  - :classes: 
-    - :class_name: Wakoopa
-      :methods: []
-
-      :lines: 18
-      :complexity: 0
-    - :class_name: "Wakoopa::"
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    - :class_name: Wakoopa::Base
-      :methods: 
-      - :lines: 2
-        :complexity: 1
-        :name: Wakoopa::Base#method_missing
-      - :lines: 2
-        :complexity: 1
-        :name: Wakoopa::Base#initialize
-      :lines: 12
-      :complexity: 2
-    - :class_name: "Wakoopa::Base::"
-      :methods: 
-      - :lines: 11
-        :complexity: 3
-        :name: Wakoopa::Base::#method_missing
-      - :lines: 4
-        :complexity: 3
-        :name: Wakoopa::Base::#find
-      - :lines: 9
-        :complexity: 2
-        :name: Wakoopa::Base::#find_every
-      - :lines: 2
-        :complexity: 1
-        :name: Wakoopa::Base::#all
-      :lines: 36
-      :complexity: 9
-    - :class_name: Wakoopa::Request
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    - :class_name: "Wakoopa::Request::"
-      :methods: 
-      - :lines: 8
-        :complexity: 2
-        :name: Wakoopa::Request::#get
-      :lines: 10
-      :complexity: 2
-    - :class_name: Wakoopa::Software
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    - :class_name: Wakoopa::Comment
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    - :class_name: Wakoopa::PlacedComment
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    - :class_name: Wakoopa::Review
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    - :class_name: Wakoopa::Relation
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    - :class_name: Wakoopa::Team
-      :methods: []
-
-      :lines: 2
-      :complexity: 0
-    :filename: wakoopa.rb
-:churn: 
-  :changes: []
 
