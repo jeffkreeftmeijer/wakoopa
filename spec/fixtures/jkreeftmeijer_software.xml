@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<software type="array">
+  <software>
+    <active-seconds type="integer">13</active-seconds>
+    <created-at type="datetime">2009-11-24T15:33:54Z</created-at>
+    <id type="integer">151108</id>
+    <last-active-at type="datetime">2009-11-24T16:57:37Z</last-active-at>
+    <name>Woot</name>
+    <num-users type="integer">3098</num-users>
+    <updated-at type="datetime">2009-10-23T18:46:56Z</updated-at>
+    <url>http://woot.com</url>
+    <complete-url>http://wakoopa.com/software/woot</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/087/793/normal.png?1245671470</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/087/793/thumb.png?1245671470</complete-thumb-url>
+    <developer>
+      <id type="integer">38360</id>
+      <name>Woot, Inc.</name>
+      <complete-url>http://wakoopa.com/developers/woot-inc</complete-url>
+    </developer>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description>Woot is an Internet retailer based in the Dallas suburb of Carrollton, Texas. Woot was the pioneer of the &quot;one deal a day&quot; business model on the internet. Woot's main website generally offers only one discounted product each day, often a piece of computer hardware or an electronic gadget. Other Woot sites offer one original t-shirt per day, two selections of wine per week, and one closeout deal per day. </description>
+  </software>
+  <software>
+    <active-seconds type="integer">158</active-seconds>
+    <created-at type="datetime">2009-11-24T13:18:45Z</created-at>
+    <id type="integer">151219</id>
+    <last-active-at type="datetime">2009-11-24T14:57:37Z</last-active-at>
+    <name>Picnik</name>
+    <num-users type="integer">1701</num-users>
+    <updated-at type="datetime">2009-11-15T06:28:22Z</updated-at>
+    <url>http://picnik.com</url>
+    <complete-url>http://wakoopa.com/software/picnik</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/016/338/normal.png?1238833261</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/016/338/thumb.png?1238833261</complete-thumb-url>
+    <developer>
+      <id type="integer">38983</id>
+      <name>Picnik, Inc.</name>
+      <complete-url>http://wakoopa.com/developers/picnik-inc</complete-url>
+    </developer>
+    <category>
+      <description></description>
+      <id type="integer">31</id>
+      <name>Image Editing</name>
+      <complete-url>http://wakoopa.com/categories/design/image-editing</complete-url>
+    </category>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description>Picnik is an online photo editing service. Currently it can import photos natively from Facebook, Myspace, Picasa Web Albums, Flickr, Yahoo Image search and also offers options to upload from a computer or to upload from a website.
+Many of Picnik's basic photo editing tools are free to use. Picnik Premium includes additional photo editing features and is offered for an annual subscription cost.
+Picnik has a partnership with Flickr that includes a less feature-rich version of Picnik built into Flickr as a default photo editor. They have also signed up to do photo editing with free website creator FreeWebs.</description>
+  </software>
+  <software>
+    <active-seconds type="integer">33</active-seconds>
+    <created-at type="datetime">2009-11-24T13:01:00Z</created-at>
+    <id type="integer">280656</id>
+    <last-active-at type="datetime">2009-11-24T14:57:37Z</last-active-at>
+    <name>W3C Markup Validation Service</name>
+    <num-users type="integer">1844</num-users>
+    <updated-at type="datetime">2009-11-10T15:36:38Z</updated-at>
+    <url>http://validator.w3.org</url>
+    <complete-url>http://wakoopa.com/software/w3c-markup-validation-service</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/135/721/normal.png?1250669698</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/135/721/thumb.png?1250669698</complete-thumb-url>
+    <developer>
+      <id type="integer">91671</id>
+      <name>World Wide Web Consortium</name>
+      <complete-url>http://wakoopa.com/developers/world-wide-web-consortium</complete-url>
+    </developer>
+    <category>
+      <description></description>
+      <id type="integer">53</id>
+      <name>Languages &amp; Frameworks</name>
+      <complete-url>http://wakoopa.com/categories/development/languages-frameworks</complete-url>
+    </category>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description>The W3C Validator checks the markup validity  of Web documents in HTML, XHTML, SMIL, MathML, etc.</description>
+  </software>
+  <software>
+    <active-seconds type="integer">5</active-seconds>
+    <created-at type="datetime">2009-11-23T18:19:03Z</created-at>
+    <id type="integer">162126</id>
+    <last-active-at type="datetime">2009-11-23T17:57:37Z</last-active-at>
+    <name>FAROO</name>
+    <num-users type="integer">63</num-users>
+    <updated-at type="datetime">2009-05-10T00:03:49Z</updated-at>
+    <url>http://faroo.com/</url>
+    <complete-url>http://wakoopa.com/software/faroo-web</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/053/994/normal.gif?1241913826</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/053/994/thumb.gif?1241913826</complete-thumb-url>
+    <developer>
+      <id type="integer">39322</id>
+      <name>FAROO</name>
+      <complete-url>http://wakoopa.com/developers/faroo</complete-url>
+    </developer>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description></description>
+  </software>
+  <software>
+    <active-seconds type="integer">13</active-seconds>
+    <created-at type="datetime">2009-11-23T13:03:10Z</created-at>
+    <id type="integer">301263</id>
+    <last-active-at type="datetime">2009-11-23T13:57:37Z</last-active-at>
+    <name>OnePage</name>
+    <num-users type="integer">52</num-users>
+    <updated-at type="datetime">2009-10-13T02:24:50Z</updated-at>
+    <url>http://myonepage.com</url>
+    <complete-url>http://wakoopa.com/software/onepage</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/145/485/normal.jpg?1253179342</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/145/485/thumb.jpg?1253179342</complete-thumb-url>
+    <developer>
+      <id type="integer">100672</id>
+      <name>OnePage</name>
+      <complete-url>http://wakoopa.com/developers/onepage</complete-url>
+    </developer>
+    <category>
+      <description></description>
+      <id type="integer">23</id>
+      <name>Social networks</name>
+      <complete-url>http://wakoopa.com/categories/internet/social-networks</complete-url>
+    </category>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description>OnePage is the one place to see everything you do on the web. The service assembles all your online activity and contact details to give you a perfect real-time contact card to share with your network in any way you wish.</description>
+  </software>
+  <software>
+    <active-seconds type="integer">0</active-seconds>
+    <created-at type="datetime">2009-11-23T06:19:08Z</created-at>
+    <id type="integer">152116</id>
+    <last-active-at type="datetime">2009-11-15T04:32:52Z</last-active-at>
+    <name>Simply Hired</name>
+    <num-users type="integer">1122</num-users>
+    <updated-at type="datetime">2009-04-01T13:33:01Z</updated-at>
+    <url>http://simplyhired.com</url>
+    <complete-url>http://wakoopa.com/software/simply-hired</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/012/184/normal.png?1238592779</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/012/184/thumb.png?1238592779</complete-thumb-url>
+    <developer>
+      <id type="integer">38501</id>
+      <name>Simply Hired, Inc.</name>
+      <complete-url>http://wakoopa.com/developers/simply-hired-inc</complete-url>
+    </developer>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description>Simply Hired is a job search website that seeks to consolidate job listings from major and minor job sites such as Monster, Careerbuilder, the WSJ and many other newspapers, content websites, organizations and company career pages. Jobs from these sites are categorized by their components (location, work experience, education, company size, etc.) for which users can search and filter their results. Searches can be narrowed further through specialty filters such as &#8220;Fortune 500&#8221;, &#8220;Dog Friendly&#8221; and &#8220;Mom Friendly&#8221; jobs. Simply Hired also had a &#8220;Who Do You Know&#8221; tool which enables job seekers to see who they know at companies of interest within their LinkedIn contacts.</description>
+  </software>
+  <software>
+    <active-seconds type="integer">0</active-seconds>
+    <created-at type="datetime">2009-11-22T14:59:51Z</created-at>
+    <id type="integer">151320</id>
+    <last-active-at type="datetime">2009-11-14T19:32:52Z</last-active-at>
+    <name>12seconds</name>
+    <num-users type="integer">1649</num-users>
+    <updated-at type="datetime">2009-09-04T11:28:55Z</updated-at>
+    <url>http://12seconds.tv</url>
+    <complete-url>http://wakoopa.com/software/12seconds</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/011/928/normal.png?1238592138</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/011/928/thumb.png?1238592138</complete-thumb-url>
+    <developer>
+      <id type="integer">36578</id>
+      <name>12seconds, Inc</name>
+      <complete-url>http://wakoopa.com/developers/12seconds-inc</complete-url>
+    </developer>
+    <category>
+      <description></description>
+      <id type="integer">23</id>
+      <name>Social networks</name>
+      <complete-url>http://wakoopa.com/categories/internet/social-networks</complete-url>
+    </category>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description>12seconds is the place online for video status updates. It's a way to share what you're doing with your friends and family using short video clips. You can use your web cam or mobile phone. Show your friends where you are, share your thoughts, or tell them how you're doing.
+The length is only 12 seconds because anything longer is boring. The scientists here at the 12seconds dodecaplex have conducted countless hours of research to determine the precise amount of time it takes for boredom or apathy to set in during typical Internet video viewing. Our patent pending Electro-Tear-Duct Prongers have determined that exactly 12 seconds of video is the ideal amount of time to keep anything interesting.</description>
+  </software>
+  <software>
+    <active-seconds type="integer">272</active-seconds>
+    <created-at type="datetime">2009-11-21T21:17:26Z</created-at>
+    <id type="integer">96401</id>
+    <last-active-at type="datetime">2009-11-22T13:45:40Z</last-active-at>
+    <name>simulator.Main</name>
+    <num-users type="integer">563</num-users>
+    <updated-at type="datetime">2009-11-22T17:59:07Z</updated-at>
+    <url></url>
+    <complete-url>http://wakoopa.com/software/simulatormain</complete-url>
+    <complete-icon-url>http://wakoopa.com/images/avatar_software.gif</complete-icon-url>
+    <complete-thumb-url>http://wakoopa.com/images/avatar_software_thumb.gif</complete-thumb-url>
+    <developer>
+      <id type="integer">15</id>
+      <name>Unknown developer</name>
+      <complete-url>http://wakoopa.com/developers/unknown</complete-url>
+    </developer>
+    <category>
+      <description></description>
+      <id type="integer">51</id>
+      <name>Text Editors &amp; IDEs</name>
+      <complete-url>http://wakoopa.com/categories/development/text-editors-ides</complete-url>
+    </category>
+    <os-types>
+      <os>mac</os>
+    </os-types>
+    <description>A 'catch all' listing for Java applications that do not specify a process name. The 'Main' refers to the Main class that is the static instance called when launching a Java application. 'simulator' would be the class/package name.
+ 
+I write quite a lot of Java applications and so quite often am running tests through the IDE. 
+I presume simulator.Main was an application run by someone and the first tagged at Wakoopa. Subsequent Java applications that people have run must have the same signature.</description>
+  </software>
+  <software>
+    <active-seconds type="integer">251</active-seconds>
+    <created-at type="datetime">2009-11-20T15:59:00Z</created-at>
+    <id type="integer">154084</id>
+    <last-active-at type="datetime">2009-11-25T12:57:37Z</last-active-at>
+    <name>FFFFOUND!</name>
+    <num-users type="integer">3477</num-users>
+    <updated-at type="datetime">2009-10-21T17:27:34Z</updated-at>
+    <url>http://ffffound.com</url>
+    <complete-url>http://wakoopa.com/software/ffffound</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/012/511/normal.png?1238593714</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/012/511/thumb.png?1238593714</complete-thumb-url>
+    <developer>
+      <id type="integer">36719</id>
+      <name>FFFFOUND!</name>
+      <complete-url>http://wakoopa.com/developers/ffffound</complete-url>
+    </developer>
+    <category>
+      <description></description>
+      <id type="integer">23</id>
+      <name>Social networks</name>
+      <complete-url>http://wakoopa.com/categories/internet/social-networks</complete-url>
+    </category>
+    <os-types>
+      <os>web</os>
+    </os-types>
+    <description>FFFFOUND! is a web service that not only allows the users to post and share their favorite images found on the web, but also dynamically recommends each user's tastes and interests for an inspirational image-bookmarking experience.</description>
+  </software>
+  <software>
+    <active-seconds type="integer">60</active-seconds>
+    <created-at type="datetime">2009-11-20T15:29:12Z</created-at>
+    <id type="integer">309674</id>
+    <last-active-at type="datetime">2009-11-20T16:04:14Z</last-active-at>
+    <name>Echofon for Mac</name>
+    <num-users type="integer">201</num-users>
+    <updated-at type="datetime">2009-11-10T02:43:12Z</updated-at>
+    <url>http://echofon.com/twitter/mac</url>
+    <complete-url>http://wakoopa.com/software/echofon-for-mac</complete-url>
+    <complete-icon-url>http://mallow.wakoopa.com/avatars/000/151/083/normal.png?1254398988</complete-icon-url>
+    <complete-thumb-url>http://mallow.wakoopa.com/avatars/000/151/083/thumb.png?1254398988</complete-thumb-url>
+    <developer>
+      <id type="integer">104178</id>
+      <name>Echofon</name>
+      <complete-url>http://wakoopa.com/developers/echofon</complete-url>
+    </developer>
+    <category>
+      <description></description>
+      <id type="integer">23</id>
+      <name>Social networks</name>
+      <complete-url>http://wakoopa.com/categories/internet/social-networks</complete-url>
+    </category>
+    <os-types>
+      <os>mac</os>
+    </os-types>
+    <description>Stay on top of your Twitter timeline with Echofon for Mac. The beautiful, subtle interface will be a welcome addition to your Mac&#8217;s desktop.
+Flexible Interface
+Echofon for mac suits those who do intense Twittering, and those who want to something that stays out of their way until they need it. The interface contracts and expands to your ideal size, and the drawer will show you details only when you need it.
+Browser Drawer
+Echofon&#8217;s unique browser-like drawer lets you view information about specific users, or read conversations without losing access to your timeline. 
+Open the drawer!
+Drag-and-Drop Photo Posting
+Posting photos to Twitter couldn't be easier. Just drag a photo onto the Echofon window to attach it to your tweet.
+Syncs with your iPhone
+Echofon for Mac syncs unread tweets with Echofon pro on your iPhone.</description>
+  </software>
+</software>

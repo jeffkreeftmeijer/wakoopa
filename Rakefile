@@ -10,8 +10,9 @@ begin
     gem.description = %Q{A simple Ruby Wakoopa API wrapper, built to give you an ActiveRecord-like way to fetch data from Wakoopa.com}
     gem.email = "jeff@kreeftmeijer.nl"
     gem.homepage = "http://github.com/jeffkreeftmeijer/wakoopa"
-    gem.authors = ["jeffkreeftmeijer"]
-    gem.add_development_dependency "rspec"
+    gem.authors = ["Jeff Kreeftmeijer"]
+    gem.add_development_dependency "rspec", ">=1.2.8"
+    gem.add_dependency 'httparty', ">= 0.4.5"
   end
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
@@ -46,3 +47,5 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+Jeweler::GemcutterTasks.new
