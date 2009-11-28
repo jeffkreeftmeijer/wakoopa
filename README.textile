@@ -4,8 +4,9 @@ A simple Ruby "Wakoopa":http://wakoopa.com API wrapper, built to give you an Act
 
 h2. Usage
 
-Check out the "Installation guide":http://wiki.github.com/jeffkreeftmeijer/wakoopa/installation. Any questions? Don't hesitate to "ask":http://github.com/inbox/new/jeffkreeftmeijer.
+Check out the "Installation":http://wiki.github.com/jeffkreeftmeijer/wakoopa/installation and "Usage":http://wiki.github.com/jeffkreeftmeijer/wakoopa/usage guides. Any questions? Don't hesitate to "ask":http://github.com/inbox/new/jeffkreeftmeijer.
 
 h2. Contributing
 
 Found an issue? Have a great idea? Want to help? Great! Please "report":http://github.com/jeffkreeftmeijer/wakoopa/issues issues and "fork":http://github.com/jeffkreeftmeijer/wakoopa/fork the project if you have any great ideas. Pull requests are always welcome.
+  
