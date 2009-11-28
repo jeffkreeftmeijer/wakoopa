@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wakoopa}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Kreeftmeijer"]
@@ -50,7 +50,8 @@ Gem::Specification.new do |s|
      "tmp/metric_fu/scratch/flog/lib/wakoopa.txt",
      "tmp/metric_fu/scratch/rcov/rcov.txt",
      "tmp/metric_fu/scratch/saikuro/index_cyclo.html",
-     "tmp/metric_fu/scratch/saikuro/lib/wakoopa.rb_cyclo.html"
+     "tmp/metric_fu/scratch/saikuro/lib/wakoopa.rb_cyclo.html",
+     "wakoopa.gemspec"
   ]
   s.homepage = %q{http://github.com/jeffkreeftmeijer/wakoopa}
   s.rdoc_options = ["--charset=UTF-8"]
