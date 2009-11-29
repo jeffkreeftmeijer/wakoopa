@@ -7,7 +7,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "wakoopa"
     gem.summary = %Q{the Ruby Wakoopa API wrapper}
-    gem.description = %Q{A simple Ruby Wakoopa API wrapper, built to give you an ActiveRecord-like way to fetch data from Wakoopa.com}
+    gem.description = %Q{A simple Ruby Wakoopa API wrapper, built to give you an ActiveRecord-like way to fetch your software usage data.}
     gem.email = "jeff@kreeftmeijer.nl"
     gem.homepage = "http://github.com/jeffkreeftmeijer/wakoopa"
     gem.authors = ["Jeff Kreeftmeijer"]

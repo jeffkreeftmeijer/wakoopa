@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Kreeftmeijer"]
-  s.date = %q{2009-11-28}
-  s.description = %q{A simple Ruby Wakoopa API wrapper, built to give you an ActiveRecord-like way to fetch data from Wakoopa.com}
+  s.date = %q{2009-11-29}
+  s.description = %q{A simple Ruby Wakoopa API wrapper, built to give you an ActiveRecord-like way to fetch your software usage data.}
   s.email = %q{jeff@kreeftmeijer.nl}
   s.extra_rdoc_files = [
     "LICENSE",

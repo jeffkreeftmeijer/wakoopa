@@ -1,6 +1,6 @@
 h1. Wakoopa
 
-A simple Ruby "Wakoopa":http://wakoopa.com API wrapper, built to give you an ActiveRecord-like way to fetch data.
+A simple Ruby "Wakoopa":http://wakoopa.com API wrapper, built to give you an ActiveRecord-like way to fetch your software usage data.
 
 h2. Usage
 
