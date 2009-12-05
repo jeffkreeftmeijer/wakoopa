@@ -56,103 +56,130 @@ describe 'Wakoopa' do
       end
       
       it 'should create a request without any arguments' do
-        Wakoopa::Request.should_receive(:get).with('test', :query => {:limit => 100})
+        Wakoopa::Request.should_receive(:get).with(Wakoopa::Base, :query => {:limit => 100})
         Wakoopa::Base.find_every
       end
       
       it 'should create a request with the feedkey provided' do
-        Wakoopa::Request.should_receive(:get).with('test', :query => {:key => '12345', :limit => 100})
+        Wakoopa::Request.should_receive(:get).with(Wakoopa::Base, :query => {:key => '12345', :limit => 100})
         Wakoopa.feedkey = '12345'
         Wakoopa::Base.find_every
       end
       
       it 'should create a request with the category condition' do
-        Wakoopa::Request.should_receive(:get).with('test', :query => {:category => 'browsers', :limit => 100})       
+        Wakoopa::Request.should_receive(:get).with(Wakoopa::Base, :query => {:category => 'browsers', :limit => 100})       
         Wakoopa::Base.find_every(:category => 'browsers')
       end
     end
     
     describe '.find_all_by_magic' do
       it 'should create a request with the category condition' do
-        Wakoopa::Request.should_receive(:get).with('test', :query => {:category => 'browsers', :limit => 100})       
+        Wakoopa::Request.should_receive(:get).with(Wakoopa::Base, :query => {:category => 'browsers', :limit => 100})       
         Wakoopa::Base.find_all_by_category('browsers')
       end
       
       it 'should create a request with the category and os condition' do
-        Wakoopa::Request.should_receive(:get).with('test', :query => {:category => 'browsers', :os => 'osx', :limit => 100})       
+        Wakoopa::Request.should_receive(:get).with(Wakoopa::Base, :query => {:category => 'browsers', :os => 'osx', :limit => 100})       
         Wakoopa::Base.find_all_by_category_and_os('browsers', 'osx')
       end
       
       it 'should create a request with the category condition, sorted by active_seconds' do
-        Wakoopa::Request.should_receive(:get).with('test', :query => {:category => 'browsers', :sort => 'active_seconds', :limit => 100})
+        Wakoopa::Request.should_receive(:get).with(Wakoopa::Base, :query => {:category => 'browsers', :sort => 'active_seconds', :limit => 100})
         Wakoopa::Base.find_all_by_category('browsers', :sort => 'active_seconds')
       end
     end
   end
   
   describe 'Request', '.get' do
-    before do
-      HTTParty.should_receive(:get).
-        with('http://api.wakoopa.com/jkreeftmeijer/software.xml', {}).
-        and_return(
-          Crack::XML.parse(
-            File.read('spec/fixtures/jkreeftmeijer_software.xml')
+    describe 'when fetching software' do
+      before do
+        HTTParty.should_receive(:get).
+          with('http://api.wakoopa.com/jkreeftmeijer/software.xml', {}).
+          and_return(
+            Crack::XML.parse(
+              File.read('spec/fixtures/jkreeftmeijer_software.xml')
+            )
           )
-        )
-    end
-    
-    it 'should return an array of software objects' do
-      result = Wakoopa::Request.get('software')
-      result.should be_instance_of Array
-      result.each do |object|
-        object.should be_instance_of Wakoopa::Software
+      end
+
+      it 'should return an array of software objects' do
+        result = Wakoopa::Request.get(Wakoopa::Software)
+        result.should be_instance_of Array
+        result.each do |object|
+          object.should be_instance_of Wakoopa::Software
+        end
+      end
+      
+      it 'should return 10 software objects' do
+        result = Wakoopa::Request.get(Wakoopa::Software)
+        result.length.should eql 10
       end
     end
     
-    it 'should return 10 software objects' do
-      result = Wakoopa::Request.get('software')
-      result.length.should eql 10
+    describe 'when fetching comments' do
+      before do
+        HTTParty.should_receive(:get).
+          with('http://api.wakoopa.com/jkreeftmeijer/comments.xml', {}).
+          and_return(
+            Crack::XML.parse(
+              File.read('spec/fixtures/jkreeftmeijer_comments.xml')
+            )
+          )
+      end
+
+      it 'should return an array of comment objects' do
+        result = Wakoopa::Request.get(Wakoopa::Comment)
+        result.should be_instance_of Array
+        result.each do |object|
+          object.should be_instance_of Wakoopa::Comment
+        end
+      end
+
+      it 'should return 1 comment object' do
+        result = Wakoopa::Request.get(Wakoopa::Comment)
+        result.length.should eql 1
+      end
     end
   end
   
   describe 'Software', '.find' do
     it 'create a "software" request' do
-      Wakoopa::Request.should_receive(:get).with('software', {:query => { :limit => 100 }})
+      Wakoopa::Request.should_receive(:get).with(Wakoopa::Software, {:query => { :limit => 100 }})
       Wakoopa::Software.find(:all)
     end
   end
   
   describe 'Comment', '.find' do
     it 'create a "comments" request' do
-      Wakoopa::Request.should_receive(:get).with('comments', {:query => { :limit => 100 }})
+      Wakoopa::Request.should_receive(:get).with(Wakoopa::Comment, {:query => { :limit => 100 }})
       Wakoopa::Comment.find(:all)
     end
   end
   
   describe 'PlacedComment', '.find' do
     it 'create a "placed_comments" request' do
-      Wakoopa::Request.should_receive(:get).with('placed_comments', {:query => { :limit => 100 }})
+      Wakoopa::Request.should_receive(:get).with(Wakoopa::PlacedComment, {:query => { :limit => 100 }})
       Wakoopa::PlacedComment.find(:all)
     end
   end
   
   describe 'Review', '.find' do
     it 'create a "reviews" request' do
-      Wakoopa::Request.should_receive(:get).with('reviews', {:query => { :limit => 100 }})
+      Wakoopa::Request.should_receive(:get).with(Wakoopa::Review, {:query => { :limit => 100 }})
       Wakoopa::Review.find(:all)
     end
   end
   
   describe 'Relation', '.find' do
     it 'create a "relations" request' do
-      Wakoopa::Request.should_receive(:get).with('relations', {:query => { :limit => 100 }})
+      Wakoopa::Request.should_receive(:get).with(Wakoopa::Relation, {:query => { :limit => 100 }})
       Wakoopa::Relation.find(:all)
     end
   end
   
   describe 'Team', '.find' do
     it 'create a "teams" request' do
-      Wakoopa::Request.should_receive(:get).with('teams', {:query => { :limit => 100 }})
+      Wakoopa::Request.should_receive(:get).with(Wakoopa::Team, {:query => { :limit => 100 }})
       Wakoopa::Team.find(:all)
     end
   end

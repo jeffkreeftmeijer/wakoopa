@@ -75,8 +75,8 @@ module Wakoopa
         if feedkey
           query.merge!(:key => feedkey)
         end
-                
-        Wakoopa::Request.get(@section, :query => query)
+        
+        Wakoopa::Request.get(self, :query => query)
       end
       
       # Wakoopa::Base#self.all(*)
@@ -130,12 +130,14 @@ module Wakoopa
       # Example:
       #
       #   software = Wakoopa::Request.get('software', {:name => 'Firefox'}) # => Array
-      def get(section, options={})                                                                  
-        response = HTTParty.get("http://api.wakoopa.com/#{Wakoopa.username}/#{section}.xml", options)
+      def get(object, options={})                                                                  
+        
+        puts object.section
+        response = HTTParty.get("http://api.wakoopa.com/#{Wakoopa.username}/#{object.section}.xml", options)
                                
         result = []
-        response[section].each do |item|
-          result << (Software.new(item))
+        response[object.section].each do |item|
+          result << (object.new(item))
         end
         result
       end

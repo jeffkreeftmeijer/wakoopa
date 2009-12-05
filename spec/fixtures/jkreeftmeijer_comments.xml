@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comments type="array">
+  <comment>
+    <created-at type="datetime">2009-10-29T10:05:28Z</created-at>
+    <id type="integer">47051</id>
+    <text>Hey Jeff!</text>
+    <owner>
+      <active-seconds type="integer">3357873</active-seconds>
+      <country>Netherlands</country>
+      <created-at type="datetime">2009-07-21T13:18:21Z</created-at>
+      <id type="integer">108388</id>
+      <name>Jeff Kreeftmeijer</name>
+      <updated-at type="datetime">2009-12-04T14:44:43Z</updated-at>
+      <username>jkreeftmeijer</username>
+      <complete-url>http://wakoopa.com/jkreeftmeijer</complete-url>
+      <complete-icon-url>http://www.gravatar.com/avatar/f03f4ce7b507aede386263d218228b6a?d=http%3A%2F%2Fwakoopa.com%2Fimages%2Favatar_people.gif&amp;size=48</complete-icon-url>
+      <complete-thumb-url>http://www.gravatar.com/avatar/f03f4ce7b507aede386263d218228b6a?d=http%3A%2F%2Fwakoopa.com%2Fimages%2Favatar_people_thumb.gif&amp;size=16</complete-thumb-url>
+      <os-types>
+        <os>mac</os>
+        <os>win</os>
+        <os>web</os>
+        <os>linux</os>
+      </os-types>
+    </owner>
+    <user>
+      <active-seconds type="integer">1235508</active-seconds>
+      <country>Australia</country>
+      <created-at type="datetime">2009-10-29T10:00:39Z</created-at>
+      <id type="integer">131488</id>
+      <name>voidet</name>
+      <updated-at type="datetime">2009-12-02T21:05:46Z</updated-at>
+      <username>voidet</username>
+      <complete-url>http://wakoopa.com/voidet</complete-url>
+      <complete-icon-url>http://www.gravatar.com/avatar/2cc8f0afada342072a8f5df5b652fdf0?d=http%3A%2F%2Fwakoopa.com%2Fimages%2Favatar_people.gif&amp;size=48</complete-icon-url>
+      <complete-thumb-url>http://www.gravatar.com/avatar/2cc8f0afada342072a8f5df5b652fdf0?d=http%3A%2F%2Fwakoopa.com%2Fimages%2Favatar_people_thumb.gif&amp;size=16</complete-thumb-url>
+      <os-types>
+        <os>mac</os>
+        <os>web</os>
+      </os-types>
+    </user>
+  </comment>
+</comments>
